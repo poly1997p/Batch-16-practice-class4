@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.hero{
+    min-height: 100vh;
+    background-image: url('image/foodee.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    background-color: black;
+
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+   margin: 0 20px;
+}
+
+nav ul li a {
+    font-size: 14px;
+    color: rgb(240, 244, 255);
+  
+    text-transform: uppercase;
+   
+}
+
+
+
+nav button {
+    background-color: rgb(208, 158, 21);
+    border: none;
+    color: black;
+    padding: 12px 30px;
+    font-size: 14px;
+    font-weight: 600px;
+    border-radius: 2rem;
+    transition: .3s;
+}
+
+
+nav button:hover{
+    scale: .8;
+}
+
+.logo {
+    color: orange;
+    font-size: 30px;
+    transition: .3s;
+}
+
+.logo:hover{
+    transform: translateX(20px);
+}
+
+.content{
+    color: rgb(220, 206, 12);
+   
+  
+    width: 400px;
+    height: 800px;
+    padding-top: 250px;
+    padding-left: 30px;
+    background-color: rgb(13, 13, 22);
+    display: inline-block;
+    font-size: 30px;
+}
+
+.content button{
+    background-color: rgb(208, 158, 21);
+    border: 2px  solid orange;
+    color: black;
+    padding: 12px 30px;
+    font-size: 14px;
+    font-weight: 600px;
+    border-radius: 2rem;
+    transition: .3s;
+}
+
+.content button.order{
+    background: transparent;
+    border: 2px  solid orange;
+    color: orange;
+    margin-left: 40px;
+}
+
+.content button:hover{
+    scale: .8;
+}
